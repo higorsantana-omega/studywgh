@@ -1,4 +1,4 @@
 # studywgh
 
-study programming.
+study programming..
 
