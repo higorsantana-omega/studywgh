@@ -15,3 +15,15 @@
 - [ ] > Git - Version Control
 - [ ] > Rebase, revert, reset & restore
 - [ ] > Checkout Specific commit & detached HEAD
+
+## React
+- [ ] > Introduction React
+- [ ] > Babel, Webpack & Loaders
+- [ ] > JSX, Props, Render conditional
+- [ ] > Context API
+- [ ] > Inline styles, CSS Modules, SASS Modules
+- [ ] > Styled Components, Theming
+- [ ] > useEffect & useLayoutEffect
+- [ ] > Class Components
+- [ ] > React Router v5
+
