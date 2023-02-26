@@ -17,7 +17,7 @@
 - [ ] > Checkout Specific commit & detached HEAD
 
 ## React
-- [✔️] > [Introduction React](../react/introduction.md)
+- [x] > [Introduction React](../react/introduction.md)
 - [ ] > Babel, Webpack & Loaders
 - [ ] > JSX, Props, Render conditional
 - [ ] > Context API
