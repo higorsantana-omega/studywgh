@@ -1,7 +1,7 @@
 # Progress
 
 ## Tests
-- [ ] > Introduction
+- [x] > [Introduction](../tests/introduction.md)
 - [ ] > Specification Based Testes & Boundary testing
 - [ ] > Structural testing
 - [ ] > Self testing, Property based testing & Test strategies
