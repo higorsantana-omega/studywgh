@@ -2,7 +2,7 @@
 
 ## Tests
 - [x] > [Introduction](../tests/introduction.md)
-- [x] > [Specification Based Testes & Boundary testing](../tests/Specification Based Testes & Boundary testing.md)
+- [x] > [Specification Based Testes & Boundary testing](../tests/Specification%20Based%20Testes%20%26%20Boundary%20testing.md)
 - [ ] > Structural testing
 - [ ] > Self testing, Property based testing & Test strategies
 - [ ] > Code design for testability
