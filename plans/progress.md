@@ -11,6 +11,18 @@
 - [ ] > Good Tests
 - [ ] > Dilemmas
 
+## JS
+- [ ] > Generators
+- [ ] > Regex
+- [ ] > Single Thread
+- [ ] > V8
+- [ ] > Event Queue
+- [ ] > EventEmitters
+- [ ] > Performance
+- [ ] > Stream and Buffers
+- [ ] > Callstack and memory heap
+- [ ] > Security
+
 ## GIT
 - [ ] > Git - Version Control
 - [ ] > Rebase, revert, reset & restore
@@ -27,3 +39,14 @@
 - [ ] > Class Components
 - [ ] > React Router v5
 
+## Elixir
+- [ ] > Programming functional
+- [ ] > Fundamentals
+- [ ] > Organization (Functions, patterns matching & Modules)
+- [ ] > Verification (Flux control, guard clauses, pipe operator)
+- [ ] > Lists (Head & tail, list comprehension, lazy evaluation, recursion)
+- [ ] > Mix
+- [ ] > ExUnit
+- [ ] > Process
+- [ ] > Parallelism & Concurency
+- [ ] > Tasks
