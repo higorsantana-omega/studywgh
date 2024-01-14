@@ -5,3 +5,7 @@ Olhar para o codigo e derivar testes apartir do codigo ou pela cobertura do codi
 Entao, se eu atingir 80% de testes eu posso parar de testar. 
 
 No estrutural voce pode tentar cobrir todos os possiveis caso de uso e isso pode te gerar inumeros casos de teste.
+
+## Cobertura por linha
+
+

@@ -21,7 +21,7 @@
 - [ ] > Performance
 - [ ] > Stream and Buffers
 - [ ] > Callstack and memory heap
-- [ ] > Security
+- [ ] > Security 
 
 ## GIT
 - [ ] > Git - Version Control
