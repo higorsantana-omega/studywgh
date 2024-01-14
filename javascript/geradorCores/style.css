@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+nav{
+    background: #eee;
+}
+
+nav ul{
+    text-align: right;
+    padding: 10px 50px 10px 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background: #06f;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #005CE6;
+}
+
+.paletas_tamanho{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+}
+
+.paleta{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#paletasDasCores{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

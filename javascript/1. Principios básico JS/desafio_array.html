@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio array</title>
+    <script>
+        var objetos = ['Cadeira', 'Impressora', 'Garfo']
+
+        // Função que adiciona itens na Array
+        function adicionarElementos(){
+            var input = document.getElementById('campoTexto').value // valor input
+            if (input === ''){ // caso esteja vazio
+                alert("Informe um valor válido.")
+            }else{
+                // Se o objeto não existir na array
+                // Ele irá adicionar na ultima posição da array
+                // e logo em seguida limpara o input
+                if (objetos.indexOf(input) == '-1'){
+                    objetos.push(input)
+                    console.log(objetos)
+                    input = ''
+                }else{
+                    alert('Objeto já foi adicionado.')
+                }
+            }
+        }
+
+        // Ordenar objetos da array
+        function ordenarElementos() {
+            var arrayOrdernada = objetos.sort()
+            console.log(arrayOrdernada)
+        }
+    </script>
+</head>
+<body>
+
+    <input id="campoTexto" type="text">
+    <button onclick="adicionarElementos()">Adicionar</button>
+    <button onclick="ordenarElementos()">Ordenar</button>
+    
+</body>
+</html>

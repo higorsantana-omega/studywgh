@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de cores</title>
+    <script>
+        function gerarCor(){
+            var cor = '#' + parseInt((Math.random() * 0xFFFFFF)).toString(16).padStart(6, '0')
+            var cor2 = '#' + parseInt((Math.random() * 0xFFFFFF)).toString(16).padStart(6, '0')
+            var cor3 = '#' + parseInt((Math.random() * 0xFFFFFF)).toString(16).padStart(6, '0')
+            var cor4 = '#' + parseInt((Math.random() * 0xFFFFFF)).toString(16).padStart(6, '0')
+            var cor5 = '#' + parseInt((Math.random() * 0xFFFFFF)).toString(16).padStart(6, '0')
+
+            document.getElementById('paleta1').style.background = cor
+            document.getElementById('paleta1').innerHTML = cor
+
+            document.getElementById('paleta2').style.background = cor2
+            document.getElementById('paleta2').innerHTML = cor2
+
+            document.getElementById('paleta3').style.background = cor3
+            document.getElementById('paleta3').innerHTML = cor3
+
+            document.getElementById('paleta4').style.background = cor4
+            document.getElementById('paleta4').innerHTML = cor4
+
+            document.getElementById('paleta5').style.background = cor5
+            document.getElementById('paleta5').innerHTML = cor5
+
+            console.log(cor)
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><button onclick="gerarCor()">Gerar cor</button></li>
+        </ul>
+    </nav>
+    <div id="paletasDasCores">
+        <div id="paleta1" class="paleta paletas_tamanho" style="left: 0%;">A</div>
+        <div id="paleta2" class="paleta paletas_tamanho" style="left: 20%;">A</div>
+        <div id="paleta3" class="paleta paletas_tamanho" style="left: 40%;">A</div>
+        <div id="paleta4" class="paleta paletas_tamanho" style="left: 60%;">A</div>
+        <div id="paleta5" class="paleta paletas_tamanho" style="left: 80%;">A</div>
+    </div>
+    
+</body>
+</html>

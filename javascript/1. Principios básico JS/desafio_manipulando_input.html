@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function modificarBackground(){
+            document.getElementById('botao').style.background = "yellow"
+        }
+
+        function resetarValores(){
+            var botao = document.getElementById('botao').value
+            if (botao.length < 3){
+            document.getElementById('botao').style.background = "red"
+            }else{
+                document.getElementById('botao').style.background = "green"
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="botao" onfocus="modificarBackground()" onblur="resetarValores()">
+    
+</body>
+</html>
