@@ -1,5 +1,5 @@
 node_modules
 **/node_modules
 **/**/**/target
-/rust/jogo_de_adivinhacao/target
-/rust/hello_cargo/target
+/languages/rust/jogo_de_adivinhacao/target
+/languages/rust/hello_cargo/target
