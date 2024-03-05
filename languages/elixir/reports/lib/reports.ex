@@ -9,6 +9,14 @@ defmodule Reports do
       # |> Enum.map(fn line -> parse_line(line) end)
     end
 
+    def build_many(filenames) when not is_list(filenames), do: {:error, "Provide a list of string"}
+
+    def build_many (filenames) do
+      result = Task.async_stream(filenames, fn filename -> build(filename) end)
+      |> Enum.map(& &1)
+      {:ok, result}
+    end
+
     def higher(report), do: Enum.max_by(report, fn {_key, value} -> value end)
 
     def report_acc do
